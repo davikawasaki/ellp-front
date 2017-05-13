@@ -1,0 +1,16 @@
+{
+  "name": "ellp-front-deployment-steps",
+  "description": "Steps for deployment on ELLP website",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}

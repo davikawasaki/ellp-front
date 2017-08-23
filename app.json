@@ -2,6 +2,7 @@
   "name": "ellp-front-deployment-steps",
   "description": "Steps for deployment on ELLP website",
   "scripts": {
+    "start": "node app.js"
   },
   "env": {
   },

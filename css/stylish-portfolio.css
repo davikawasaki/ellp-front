@@ -38,6 +38,26 @@ body {
     color: #EB5422;
 }
 
+.bg-blue {
+    background-color: rgba(0, 89, 147, .8);
+}
+
+.bg-orange {
+    background-color: rgba(235, 84, 34, .8);
+}
+
+.pd-05em {
+    padding: .5em;
+}
+
+.pd-rl-05em {
+    padding: 0 .5em;
+}
+
+div h1.mg-b-03em {
+    margin-bottom: 0.3em;
+}
+
 
 /* Custom Button Styles */
 
@@ -80,7 +100,7 @@ body {
 .btn-blue:focus,
 .btn-blue:active {
     color: #fff;
-    background-color: rgba(0, 89, 147, .7)
+    background-color: rgba(0, 89, 147, .7);
 }
 
 
@@ -195,12 +215,12 @@ hr.small {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(../img/kids_page_banner.jpg) no-repeat center center scroll;
+    background: url(../img/dia_criancas_santa_mariana_2016_003.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    opacity: 0.5;
+    opacity: 1;
     z-index: -1;
 }
 
@@ -298,4 +318,14 @@ footer {
     bottom: 5px;
     display: none;
     padding: 15px 20px;
+}
+
+/* Override */
+
+.bg-primary {
+    background-color: #005993 !important;
+}
+
+.text-primary, a {
+    color: #005993 !important;
 }

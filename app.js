@@ -9,20 +9,20 @@ app.get('/',function(req, res) {
   res.sendFile(__dirname + '/index.html');
 });
 
-// app.route('/ongs')
-//   .get(function(req, res) {
-//     res.sendFile(__dirname + '/ongs.html');  
-//   });
+app.route('/informaticabasica')
+  .get(function(req, res) {
+    res.sendFile(__dirname + '/informaticabasica.html');  
+  });
 
 app.route('/diadascriancas')
   .get(function(req, res) {
     res.sendFile(__dirname + '/diadascriancas.html');  
   });
 
-// app.route('/engenhariaparamulheres')
-//   .get(function(req, res) {
-//     res.sendFile(__dirname + '/engenhariaparamulheres.html');  
-//   });
+app.route('/engenhariameninas')
+  .get(function(req, res) {
+    res.sendFile(__dirname + '/engenhariameninas.html');  
+  });
 
 app.route('/ensinomedio')
   .get(function(req, res) {

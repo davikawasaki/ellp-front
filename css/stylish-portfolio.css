@@ -235,7 +235,7 @@ hr.small {
     height: 100%;
 }
 
-.header-ensinomedio {
+.header-ensinomedio, .header-engenhariameninas, .header-informaticabasica {
     position: relative;
     display: table;
     width: 100%;
@@ -278,8 +278,40 @@ hr.small {
     z-index: -1;
 }
 
+.header-engenhariameninas:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/engenharia_para_meninas_003.jpg) no-repeat center center scroll;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    opacity: 1;
+    z-index: -1;
+}
+
+.header-informaticabasica:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/informatica_basica_ong_resgatando_vidas_2017-1_001.jpg) no-repeat center center scroll;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    opacity: 1;
+    z-index: -1;
+}
+
 @media screen and (max-width: 768px) {
-    .header-ensinomedio:after {
+    .header-ensinomedio:after, .header-engenhariameninas:after, .header-informaticabasica:after {
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;

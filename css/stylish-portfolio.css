@@ -249,7 +249,7 @@ hr.small {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(../img/dia_criancas_santa_mariana_2016_003.jpg) no-repeat center center scroll;
+    background: url(../img/oficina_dia_criancas_2017.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -259,7 +259,7 @@ hr.small {
 }
 
 .header-diacriancas:after {
-    background: url(../img/dia_criancas_santa_mariana_2016_004.jpg) no-repeat center top scroll !important;
+    background: url(../img/crianca_oficina_dia_criancas_2017.jpg) no-repeat center center scroll !important;
 }
 
 .header-ensinomedio:after {
